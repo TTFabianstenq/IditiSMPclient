@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "iditismp-client",
+  "version": "${version}",
+  "name": "IditiSMP Client",
+  "description": "IditiSMP Client - focused on IditiSMP Shop Survival + CPvP",
+  "authors": [
+    "TTFabianstenq"
+  ],
+  "license": "MIT",
+  "icon": "assets/iditismp-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.iditismp.IditiSMPClient"
+    ]
+  },
+  "mixins": [
+    "iditismp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
